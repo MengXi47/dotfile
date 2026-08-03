@@ -1,0 +1,62 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 1.6,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "cmake.configureOnOpen": false,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.suggest.quickSuggestions": {
+        "commands": "on",
+        "arguments": "on",
+        "unknown": "off"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on",
+        "comments": "on"
+    },
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.formatOnSave": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.formatOnSave": true
+    },
+    "editor.inlayHints.enabled": "off",
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=iwyu",
+        "--all-scopes-completion",
+        "--cross-file-rename"
+    ],
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.iconTheme": "material-icon-theme",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "editor.fontVariations": false,
+    "black-formatter.args": [
+        "--line-length",
+        "80"
+    ],
+    //"files.autoSave": "afterDelay",
+    "liveServer.settings.donotVerifyTags": true,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "editor.codeActionsOnSave": {},
+    "chat.viewSessions.orientation": "stacked",
+    "chatgpt.localeOverride": "zh-TW",
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.selectedModel": "default",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "property": "#FFA657"
+        }  
+    }
+}
